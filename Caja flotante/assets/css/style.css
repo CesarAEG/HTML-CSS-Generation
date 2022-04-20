@@ -1,0 +1,56 @@
+@charset "UFT-8";
+
+/** Estilo del background**/
+
+body {
+    background-color: #ccc;
+}
+
+/** Estilo del contenedor prncipal **/
+
+    .cajaFlotante {
+        margin: 10%;
+        background-color: #fff;
+        border: solid rgb(147, 147, 147);
+        border-top: solid 0;
+        border-left: solid 0;
+        border-radius: 5px;
+    }
+    
+    /** Estilo para los elementos hijos **/
+    
+    /** Cabecera **/
+    
+    .cabecera {
+        padding: 10px;
+        border-bottom: 1px solid rgb(147, 147, 147);
+    }
+    
+    /** Contenido **/
+    
+    .contenido {
+        padding: 10px;
+        border-bottom: 1px solid rgb(147, 147, 147);
+    }
+    
+    /** Botones **/
+    
+    .botones {
+        padding: 10px;
+
+    }
+        #botonAceptar {
+            background-color: rgb(61, 135, 215);
+            color: #fff;
+            border: none;
+            border-radius: 2px;
+            padding: 5px;
+        }
+        
+        #botonCancelar {
+            background-color: rgb(147, 147, 147);
+            color: #fff;
+            border: none;
+            border-radius: 2px;            
+            padding: 5px;
+        }

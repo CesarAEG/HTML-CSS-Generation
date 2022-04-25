@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.card { 
+    margin: 0 auto;
+}
+
+.carousel-indicators li {
+    background-color: #000;
+}
+.carousel-indicators {
+    margin-bottom: -5%;
+}
+.carousel-control-prev-icon {
+    color: #000;
+}
+.jumbotron {
+    background-color: #bb009566;
+}
+.display-4 {
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    font-weight: bold;
+    text-align: center;
+}
+.lead {
+    color: #fff;
+    text-align: center;
+}
